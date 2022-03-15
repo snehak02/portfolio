@@ -1,0 +1,113 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color:#161616;
+    width: 15vw;
+    height: 1000px;
+    
+}
+.sidebar nav{
+    padding: 20px 30;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    color:white;
+    padding: 25px 0;
+
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    
+ 
+    color:white;
+   
+
+
+}
+
+
+.main{
+    background-color: aqua;
+    width: 85vw;
+}
+.container{
+    display: flex;
+
+}
+.infoContainer{
+   background-color: azure;
+   height: 52vh;
+   width: 80vw;
+   margin:57px auto;
+   display: flex;
+   justify-content: space-around;
+ 
+
+}
+.myinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+font-size: 30px;
+
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 20px;
+}
+.aboutmore{
+    font-size: 10px;
+}
+.buttons button{
+
+    margin-top: 32px;
+    padding: 8px 80px;
+    border-radius: 25px;
+    color: azure;
+    font-weight: bold;
+    background-color: #161616;
+    font-size: 0 3px;
+    cursor: pointer;
+
+}
+.buttons  button:hover{
+    color: black;
+    background-color:aliceblue;
+}
+.mypic img{
+    width: 381px;
+    margin: 28px;
+    border-radius: 100px;
+}
+
+.Contactform h1{
+    text-align: center;
+    padding: 4px;
+}
+
+.Contactform {
+   text-align: center;
+    padding: 38px;
+}
+
+.Contactform form div {
+    
+     padding: 30px;
+ }
+
+ 
